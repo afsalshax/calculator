@@ -16,7 +16,7 @@
         input[type="button"] {
             width: 100%;
             padding: 20px 40px;
-            background-color: green;
+            background-color: rgb(164, 164, 164);
             color: white;
             font-size: 24px;
             font-weight: bold;
@@ -31,7 +31,12 @@
             border: none;
             border-radius: 5px;
             border: 2px solid black;
+            width: 109%;
         }
+        #a1{
+            width: 258%;
+        }
+
     </style>
 </head>
   
@@ -43,7 +48,11 @@
             <td colspan="3">
                 <input type="text" id="result">
             </td>
-            <td><input type="button"  onclick="allclear()" value="c"></td>
+        </tr>
+
+        <tr>      
+                  <td><input type="button"  onclick="backspace()" value="Del"></td>
+                  <td ><input type="button" id="a1"  onclick="allclear()" value="AC"></td>
         </tr>
   
         <tr>
